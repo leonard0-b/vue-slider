@@ -10,7 +10,6 @@ body {
   background-image: url(../img/background.png);
   background-size: cover;
   background-repeat: no-repeat;
-  /* background-position: center; */
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -44,6 +43,10 @@ nav {
   text-shadow: 1px 1px #006688;
 }
 
+.fas:hover {
+  transform: scale(1.2);
+}
+
 .active {
   color: #D51F22;
   font-size: 35px;
@@ -63,6 +66,31 @@ button:focus {
   outline: none;
 }
 
-/* .fa-pause {
-  margin-left: 20px;
-} */
+@media all and (max-width: 1024px) {
+  body {
+    background-position: center center;
+  }
+
+  img {
+    width: 500px;
+    height: 240px;
+  }
+}
+
+@media all and (max-width: 800px) {
+  img {
+    width: 250px;
+    height: 140px;
+  }
+
+  .fas {
+    font-size: 15px;
+  }
+}
+
+@media all and (max-width: 400px) {
+  img {
+    width: 150px;
+    height: 100px;
+  }
+}
