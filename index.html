@@ -11,13 +11,13 @@
 <body>
   <div id="root">
     <div class="container flex">
-      <div class="prev">
+      <div class="prev" @click="prev">
         <i class="fas fa-angle-left"></i>
       </div>
       <div class="img">
         <img :src="imgs[index]" alt="">
       </div>
-      <div class="next">
+      <div class="next" @click="next">
         <i class="fas fa-angle-right"></i>
       </div>
     </div>

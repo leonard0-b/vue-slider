@@ -4,10 +4,11 @@
   box-sizing: border-box;
 }
 
-/* body {
-  width: 100vw;
-  height: 100vh;
-} */
+body {
+background-image: url(../img/background.png);
+background-size: cover;
+background-repeat: no-repeat;
+}
 
 .flex {
   display: flex;
@@ -28,4 +29,5 @@ img {
 .fas {
   font-size: 20px;
   cursor: pointer;
+  color: #e6d146;
 }
