@@ -8,6 +8,11 @@ body {
 background-image: url(../img/background.png);
 background-size: cover;
 background-repeat: no-repeat;
+width: 100vw;
+height: 100vh;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 
 .flex {
@@ -15,19 +20,28 @@ background-repeat: no-repeat;
 }
 
 .container {
-  width: 100vw;
-  height: 100vh;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 
 img {
   width: 700px;
+  height: 297px;
   margin: 0 20px;
 }
 
+nav {
+  justify-content: center;
+}
+
 .fas {
+  margin: 10px 10px;
   font-size: 20px;
   cursor: pointer;
   color: #e6d146;
+}
+
+.active {
+  color: #BD4012;
 }

@@ -26,6 +26,10 @@ var app = new Vue (
         } else {
           this.index = this.imgs.length - 1
         }
+      },
+
+      anchorSel: function(index) {
+        this.index = index;
       }
     }
 })
