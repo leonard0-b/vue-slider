@@ -24,6 +24,10 @@
     <nav class="anchor-nav flex">
       <i v-for="anchor in imgs.length" class="fas fa-anchor" :class="(anchor - 1 == index) ? 'active' : ''" @click="anchorSel(anchor-1)"></i>
     </nav>
+    <div class="btns flex">
+      <button type="button" name="button" @click="start"><i class="fas fa-play"></i></button>
+      <button type="button" name="button" @click="stop"><i class="fas fa-pause"></i></button>
+    </div>
 
 
 
