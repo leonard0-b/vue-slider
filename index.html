@@ -22,6 +22,8 @@
       </div>
     </div>
     <nav class="anchor-nav flex">
+      <!-- ciclo for per la creazione degli anchor nella nav  -->
+      <!-- aggiungo alla classe un ternario if else: se l'anchor - 1 è uguale all'index dell'array prende "active" -->
       <i v-for="anchor in imgs.length" class="fas fa-anchor" :class="(anchor - 1 == index) ? 'active' : ''" @click="anchorSel(anchor-1)"></i>
     </nav>
     <div class="btns flex">

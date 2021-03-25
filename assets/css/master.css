@@ -29,6 +29,7 @@ img {
   width: 700px;
   height: 297px;;
   margin: 0 20px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 nav {
@@ -49,7 +50,7 @@ nav {
 
 .active {
   color: #D51F22;
-  font-size: 35px;
+  font-size: 30px;
 }
 
 .btns {
